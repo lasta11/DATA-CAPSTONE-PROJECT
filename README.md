@@ -9,7 +9,7 @@ The goal is to build a machine learning model which is capable to take historica
 
 ### Data
 
-* Web scraping to collect data:
+#### Web scraping to collect data:
 For collecting the historical stock news I chose FinViz website. This website is a stock screener which has all stock information, market prices along with news related to each particular stock. Also it has updated information on the performance of each sector, industry and any major stock index. Below is a quick look how the stock news are arranged for each ticker, for example: 'AMZN'
    * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Finviz%20News.png)
 
