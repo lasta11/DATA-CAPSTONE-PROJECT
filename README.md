@@ -78,7 +78,15 @@ The accuracy of the model was about 68% .
 
 ### Overview of files in this repository:
   
-  * modules
+  * modules:
+      * scrapestocknews.py: To scrape news from FinViz stock screener
+      * formatparseddata.py: To parse the collected HTML data to correct format of date, time, news, tickers
+      * sentimentanalysis.py: To do sentiment analysis on the news for all colected historical data
+      * eda_price_vs_date.py: Visualize stock price over time
+      * eda_sentiments_vs_date.py: Visualize sentiments over time
+      * pricediff_vs_sentiment.py : Visualize pricedifference and sentiment to see trend
+      * model1: ARIMA Used to make predictions
+      * model2: Neural newtwork model to make predictions
 
 
 
