@@ -92,7 +92,7 @@ The accuracy of the model was about 68% .
 
 ### Software Setup
 * Packages used in notebook: numpy, pandas, matplotlib, tenserflow, sklearn, BeautifulSoup, requests, json, yfinance, seaborn, statsmodels.api
-Tensorflow-metal PluggableDevice was installed to accelerate training with Metal on Mac GPUs using this link.
+
 
 
 ### References:
