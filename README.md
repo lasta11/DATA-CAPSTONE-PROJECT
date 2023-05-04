@@ -1,4 +1,4 @@
-# Portfolio Management System
+# Web Scraping and Stock Price Prediction
 
 This my repository for the work for my Senior year Capstone Project (Stock news collection using Web Scraping and Stock price prediction) using Machine Learning Models.
 
@@ -31,8 +31,15 @@ Using python to parse this website and get date, ticker, and the headline of the
   First step, to the project after the stock news collection was to perform sentiment analysis on the news data collected and assign a compuund score -1 being the highest negative and 1 being the highest positive and 0 being neutral. For example for 'AMZN' the compound sentiment was:
   
   * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/CompoundStock%20Sentiment.png)
+ 
+  I used Yahoo Finance to download the historical stock prices, which included date, open_stock, close_stock, high-stock, low_stock, volume_stock for that day. 
   
+  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Stock%20price%20time.png)
   
+  Further, for relationship I tried to look for correlation between the stock prices and the sentiment score for the previous day. 
+  
+  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Sentiment%20Score.png)
+
 
 *Prediction using Machine Learning
 
