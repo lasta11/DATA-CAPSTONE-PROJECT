@@ -44,7 +44,7 @@ Using python to parse this website and get date, ticker, and the headline of the
   * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Sony_sentiment-date.png)
   
  Further, plotting stock price over same time period: 
-  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Stock%20price%20time.png)
+  
   * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Sony_sentiment_time.png)
   
 * Prediction using Machine Learning
