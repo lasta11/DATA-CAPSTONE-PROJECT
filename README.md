@@ -19,12 +19,20 @@ Using python to parse this website and get date, ticker, and the headline of the
   As we can see that each news are stored into a table with id='news-table' bounded by <tr>tags for the time data and <a></a> tags for the news headline tags, also we can see use similar method to get the news URL if we want for further use.  
 
   
-*Preprocessing/ Clean up:
+* Preprocessing/ Clean up:
+  
+  For the preprocessing part, I iterate through all tr tags from the previous step and get the text for date, time, ticker and headline. I further format it into a list of lists for each news headline in proper format of [['ticker1','YYYY-MM-DD', 'HH:MMPM', 'News Headline1'], ['ticker1','YYYY-MM-DD', 'HH:MMPM', 'News Headline2']]
 
 
 ### Problem Formulation:
 
 * Sentiment Analysis
+  
+  First step, to the project after the stock news collection was to perform sentiment analysis on the news data collected and assign a compuund score -1 being the highest negative and 1 being the highest positive and 0 being neutral. For example for 'AMZN' the compound sentiment was:
+  
+  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/CompoundStock%20Sentiment.png)
+  
+  
 
 *Prediction using Machine Learning
 
