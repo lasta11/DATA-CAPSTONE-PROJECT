@@ -34,7 +34,7 @@ Using python to parse this website and get date, ticker, and the headline of the
  
   I used Yahoo Finance to download the historical stock prices, which included date, open_stock, close_stock, high-stock, low_stock, volume_stock for that day. 
   
-  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Stock%20price%20time.png)
+  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Sony-sentiment.png)
   
   Further, for relationship I tried to look for correlation between the stock prices and the sentiment score for the previous day. 
   
