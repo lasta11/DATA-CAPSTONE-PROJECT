@@ -40,35 +40,56 @@ Using python to parse this website and get date, ticker, and the headline of the
   
   * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Sentiment%20Score.png)
 
+ Further, plotting sentiment over date: 
+  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Sony_sentiment-date.png)
+  
+ Further, plotting stock price over same time period: 
+  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Stock%20price%20time.png)
+  * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Sony_sentiment_time.png)
+  
+* Prediction using Machine Learning
 
-*Prediction using Machine Learning
-
+  After collection of sentiment score, historical price data, predicting the stock price in the future using machine learning models. I used ARIMA (Autoregressive Integrated Moving Average) model to make the predictions, giving input as both past values of the stock price and other features, semtimemt scores. 
+  
 ### Training
-Model 1:
+Model 1: ARIMA Model Predictions: 
+  
+ * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Predictions_SONY.png)
+  
+ * ![pics](https://github.com/lasta11/DATA-CAPSTONE-PROJECT/blob/main/Example%20Images/Pep_predictions.png)
 
-Model 2:
+Model 2: Neural Network Model with dropout regularization and train it using binary cross-entropy loss and Adam optimizer with a learning rate of 0.001 for 500 epochs.
 
-
-### Performance Comparison
-Metrics Evaluation:
-
+The accuracy of the model was about 68% . 
+ 
 
 ### Challenges 
-
+  
+* The GPU of my computer was not the best one for web scraping, it would have been less time consuming with higher GPU.
+  
+  
 ### Future Work
 
+  To train over more data, and other models like LSTM and compare the results with ARIMA model.
+* WOrk with parameters to get more accurate predictions
+* Incorporate the asset prices such as gold, silver, etc. to predict the prices along with the sentiment from their news and see if there is correlation between assets and stock news.
 
 ## How to reproduce results
 
+### Overview of files in this repository:
+  
+  * modules
 
-### Overview of files in repository
 
 
 ### Software Setup
-* Packages used in notebook: 
+* Packages used in notebook: numpy, pandas, matplotlib, tenserflow, sklearn, BeautifulSoup, requests, json, yfinance, seaborn, statsmodels.api
+Tensorflow-metal PluggableDevice was installed to accelerate training with Metal on Mac GPUs using this link.
 
 
 ### References:
-*
+* https://www.kaggle.com/datasets/aaron7sun/stocknews
+* https://github.com/kianso7414/News-Scraping/blob/main/scrape_final.ipynb
+  
 
 
